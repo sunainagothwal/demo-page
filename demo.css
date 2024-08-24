@@ -1,0 +1,137 @@
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    border-bottom: 2px solid #292e29;
+    background: linear-gradient(45deg, #333, #abbcac);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nav_head {
+    background-color: rgb(58, 52, 52);
+}
+
+.nav_head ul {
+    overflow: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav_head li {
+    float: left;
+    list-style: none;
+    margin: 13px 19px;
+}
+
+.nav_head li a {
+    padding: 5px 5px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a img {
+    width: 24px;
+    height: auto;
+    vertical-align: middle;
+}
+
+#slider {
+    overflow: hidden;
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+#slider figure img {
+    float: left;
+    width: 10%;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+
+    20% {
+        left: 0;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+}
+
+.footer-container {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.f_footer {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.f_footer h4 {
+    border-bottom: 2px solid #292e29;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.f_footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.f_link {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
